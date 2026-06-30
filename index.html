@@ -3,8 +3,34 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Trisha Arun — Data & Analytics</title>
-<meta name="description" content="Trisha Arun turns messy data into decisions. Business intelligence, analytics, and full-stack builds.">
+<title>Trisha Arun — Business + Data Analytics · Purdue '28</title>
+<meta name="description" content="Trisha Arun — Data Analytics & Finance student at Purdue. Business intelligence, financial analysis, and the dashboards that turn data into decisions. NASA · J&J · EdgeConneX.">
+<meta name="keywords" content="Trisha Arun, Purdue, data analytics, finance, business intelligence, BI analyst, financial analyst, Power BI, SQL, Python, internship 2026, Class of 2028">
+<meta property="og:title" content="Trisha Arun — Business + Data Analytics">
+<meta property="og:description" content="Data Analytics & Finance student at Purdue. Built BI and analytics for NASA, J&J, and EdgeConneX. Open to Summer & Fall 2026.">
+<meta property="og:type" content="website">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Trisha Arun",
+  "url": "https://trisha3333333.github.io/portfolio/",
+  "email": "mailto:trisha.arun@gmail.com",
+  "telephone": "+1-571-489-3222",
+  "jobTitle": "Business Intelligence Analyst Intern",
+  "worksFor": {"@type":"Organization","name":"EdgeConneX"},
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Purdue University",
+    "department": "Mitch Daniels School of Business"
+  },
+  "knowsAbout": ["Data Analytics","Finance","Business Intelligence","Financial Modeling","SQL","Power BI","Python","Capital Budgeting"],
+  "sameAs": [
+    "https://linkedin.com/in/trishaarunn",
+    "https://github.com/trisha3333333"
+  ]
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -155,6 +181,24 @@ section{padding:100px 0;position:relative}
 .metric .lbl{font-family:var(--mono);font-size:11.5px;color:var(--graphite);
   margin-top:12px;letter-spacing:.02em;line-height:1.5}
 
+/* EDUCATION */
+.edu{display:grid;grid-template-columns:1.2fr 1fr;gap:1px;background:var(--hair);
+  border:1px solid var(--hair);border-radius:14px;overflow:hidden}
+@media(max-width:760px){.edu{grid-template-columns:1fr}}
+.edu-block{background:var(--paper);padding:34px 32px;display:flex;flex-direction:column;gap:14px}
+.edu-school{font-family:var(--disp);font-weight:700;font-size:24px;letter-spacing:-.01em;color:var(--ink)}
+.edu-degree{font-family:var(--body);font-size:15.5px;color:var(--ink-soft);line-height:1.55}
+.edu-degree b{color:var(--ink);font-weight:600}
+.edu-meta{display:flex;flex-wrap:wrap;gap:18px;margin-top:6px;
+  font-family:var(--mono);font-size:11.5px;color:var(--graphite);letter-spacing:.04em}
+.edu-meta span{display:inline-flex;align-items:center;gap:7px}
+.edu-meta span::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--signal)}
+.edu-side{background:var(--paper);padding:34px 32px;display:flex;flex-direction:column;gap:14px}
+.edu-side h5{font-family:var(--mono);font-size:11.5px;letter-spacing:.04em;color:var(--signal);margin-bottom:4px}
+.edu-side ul{list-style:none;display:flex;flex-wrap:wrap;gap:7px}
+.edu-side li{font-family:var(--mono);font-size:11.5px;color:var(--ink-soft);
+  border:1px solid var(--hair);padding:5px 11px;border-radius:20px}
+
 /* WORK */
 .work-list{display:flex;flex-direction:column;gap:1px;background:var(--hair);
   border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
@@ -233,7 +277,8 @@ footer .f b{color:var(--signal)}
 <nav id="nav">
   <div class="brand">trisha<b>.</b>arun</div>
   <div class="navlinks">
-    <a href="#work">work</a>
+    <a href="#education">education</a>
+    <a href="#work">experience</a>
     <a href="#projects">projects</a>
     <a href="#skills">skills</a>
     <a href="#contact">contact</a>
@@ -243,20 +288,20 @@ footer .f b{color:var(--signal)}
 
 <header>
   <div class="wrap">
-    <div class="eyebrow"><span class="dot"></span>OPEN TO SUMMER &amp; FALL 2026 INTERNSHIPS</div>
+    <div class="eyebrow"><span class="dot"></span>OPEN · SUMMER &amp; FALL 2026 · FINANCE · CONSULTING · BI · STRATEGY</div>
     <h1>
-      <span class="line"><span>I turn messy</span></span>
-      <span class="line"><span>data into</span></span>
-      <span class="line"><span><em>decisions.</em></span></span>
+      <span class="line"><span>Business calls.</span></span>
+      <span class="line"><span>I bring the</span></span>
+      <span class="line"><span><em>numbers.</em></span></span>
     </h1>
-    <p class="lede">Computer &amp; Information Technology student at Purdue, building business intelligence, analytics pipelines, and the dashboards that help teams act on what their data is actually saying.</p>
+    <p class="lede">Data Analytics &amp; Finance student at Purdue, building the dashboards, models, and analyses that help operators and investors decide faster — and bet smarter. Three internships in: <b>NASA, Johnson &amp; Johnson, EdgeConneX.</b></p>
     <div class="hero-cta">
       <a href="#work" class="btn btn-primary">See the work <span class="arrow">↗</span></a>
       <a href="#contact" class="btn btn-ghost">Get in touch</a>
     </div>
   </div>
   <div class="hero-readout wrap" style="position:absolute;left:50%;transform:translateX(-50%);max-width:var(--maxw)">
-    <div><span class="q">SELECT</span> impact <span class="q">FROM</span> experience <span class="q">WHERE</span> curiosity = true;</div>
+    <div><span class="q">SELECT</span> decision <span class="q">FROM</span> data <span class="q">WHERE</span> it_matters = true;</div>
   </div>
 </header>
 
@@ -264,10 +309,46 @@ footer .f b{color:var(--signal)}
 <section style="padding-top:40px">
   <div class="wrap">
     <div class="metrics reveal" id="metrics">
-      <div class="metric"><div class="val" data-count="4">0</div><div class="lbl">DATA ROLES ACROSS<br>NASA, J&amp;J, MORE</div></div>
-      <div class="metric"><div class="val" data-count="20" data-suffix="+"><span class="num">0</span></div><div class="lbl">STAKEHOLDERS BRIEFED<br>ON FINDINGS</div></div>
-      <div class="metric"><div class="val" data-count="35" data-suffix="%"><span class="num">0</span></div><div class="lbl">AVG PERFORMANCE<br>LIFT, TUTORING DATA</div></div>
-      <div class="metric"><div class="val" data-count="2028"><span class="num">0</span></div><div class="lbl">PURDUE B.S.<br>GRAD YEAR</div></div>
+      <div class="metric"><div class="val" data-count="3">0</div><div class="lbl">INDUSTRIES SHIPPED IN<br>AEROSPACE · PHARMA · INFRA</div></div>
+      <div class="metric"><div class="val" data-count="20" data-suffix="+"><span class="num">0</span></div><div class="lbl">EXECUTIVE STAKEHOLDERS<br>BRIEFED ON FINDINGS</div></div>
+      <div class="metric"><div class="val" data-count="35" data-suffix="%"><span class="num">0</span></div><div class="lbl">AVG PERFORMANCE LIFT<br>FROM ANALYTICS WORK</div></div>
+      <div class="metric"><div class="val" data-count="2028"><span class="num">0</span></div><div class="lbl">PURDUE B.S.<br>EXPECTED MAY 2028</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" style="padding-top:60px">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">01</span>
+      <span class="sec-title">Education</span>
+      <span class="sec-sub">// purdue · class of 2028</span>
+    </div>
+    <div class="edu reveal">
+      <div class="edu-block">
+        <div class="edu-school">Purdue University</div>
+        <div class="edu-degree">
+          B.S., <b>Data Analytics &amp; Finance</b> (intended double major)<br>
+          West Lafayette, IN · Mitch Daniels School of Business
+        </div>
+        <div class="edu-meta">
+          <span>EXPECTED MAY 2028</span>
+          <span>MAJORS DECLARING 2027</span>
+          <span>FULL-TIME UNDERGRAD</span>
+        </div>
+      </div>
+      <div class="edu-side">
+        <h5>FOCUS AREAS</h5>
+        <ul>
+          <li>Business Intelligence</li>
+          <li>Financial Analysis</li>
+          <li>Statistics</li>
+          <li>Data Engineering</li>
+          <li>Corporate Finance</li>
+          <li>Decision Analytics</li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
@@ -276,7 +357,7 @@ footer .f b{color:var(--signal)}
 <section id="work">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-num">01</span>
+      <span class="sec-num">02</span>
       <span class="sec-title">Where I've worked</span>
       <span class="sec-sub">// experience</span>
     </div>
@@ -286,9 +367,9 @@ footer .f b{color:var(--signal)}
         <span class="idx">01</span>
         <div>
           <h3>Business Intelligence Analyst Intern</h3>
-          <div class="org">EdgeConneX · Herndon, VA</div>
-          <p>Built a Python data-obfuscation script over a SQL database to mask PII for an employee training environment — keeping datasets realistic and usable while protecting sensitive information. Designed a physical-security break/fix dashboard in Power BI tracking incident and remediation metrics across sites.</p>
-          <div class="tags"><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Power BI</span><span class="tag">Data Privacy</span></div>
+          <div class="org">EdgeConneX · Herndon, VA · Data center infrastructure</div>
+          <p>Shipped a physical-security break/fix dashboard in Power BI tracking incident frequency, remediation time, and cost exposure across global sites — giving ops leaders a single view to triage and prioritize. Engineered a Python data-obfuscation pipeline over a production SQL database so training environments stayed realistic without exposing PII.</p>
+          <div class="tags"><span class="tag">Power BI</span><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Ops Analytics</span><span class="tag">Data Privacy</span></div>
         </div>
         <div class="when">Jun 2026 — Present</div>
       </div>
@@ -296,10 +377,10 @@ footer .f b{color:var(--signal)}
       <div class="work">
         <span class="idx">02</span>
         <div>
-          <h3>Undergraduate Data Engineer</h3>
-          <div class="org">The Data Mine · Johnson &amp; Johnson Medical Affairs</div>
-          <p>Designed and maintained Power BI dashboards visualizing capital-budget performance and pipeline health. Defined KPIs with stakeholders, cleaned and validated large datasets in Power Query, and automated reporting to remove manual refresh steps — then translated the numbers into executive-ready narratives.</p>
-          <div class="tags"><span class="tag">Power BI</span><span class="tag">Power Query</span><span class="tag">KPIs</span><span class="tag">Automation</span></div>
+          <h3>Data &amp; Reporting Analyst — Medical Affairs Finance</h3>
+          <div class="org">The Data Mine · Johnson &amp; Johnson</div>
+          <p>Owned the BI layer for a multi-million-dollar <b>capital budget</b>: built Power BI dashboards that visualized spend vs. plan and pipeline health, defined KPIs alongside finance and business stakeholders, automated Power Query refreshes to eliminate manual reporting, and translated the numbers into executive-ready narratives leadership could act on.</p>
+          <div class="tags"><span class="tag">Power BI</span><span class="tag">Capital Budgeting</span><span class="tag">KPI Design</span><span class="tag">Power Query</span><span class="tag">Exec Reporting</span></div>
         </div>
         <div class="when">Jan — May 2026</div>
       </div>
@@ -307,10 +388,10 @@ footer .f b{color:var(--signal)}
       <div class="work">
         <span class="idx">03</span>
         <div>
-          <h3>Undergraduate Data Researcher</h3>
-          <div class="org">The Data Mine · Barrios Technology / NASA</div>
-          <p>Analyzed operational data across a 10-person cross-functional Agile team, segmenting by time period, project phase, and stakeholder group to surface trends and bottlenecks. Produced status reports, visualizations, and executive presentations for 20+ NASA and corporate stakeholders.</p>
-          <div class="tags"><span class="tag">Data Analysis</span><span class="tag">Agile</span><span class="tag">Segmentation</span><span class="tag">Storytelling</span></div>
+          <h3>Data Researcher — Program Performance</h3>
+          <div class="org">The Data Mine · Barrios Technology (NASA prime contractor)</div>
+          <p>Embedded in a 10-person Agile pod analyzing program-performance data for a NASA mission services contract. Segmented operational data by time period, project phase, and stakeholder group to surface bottlenecks, then packaged the findings into status reports and executive presentations briefed to <b>20+ NASA and corporate stakeholders</b>.</p>
+          <div class="tags"><span class="tag">Data Analysis</span><span class="tag">Program Analytics</span><span class="tag">Segmentation</span><span class="tag">Exec Storytelling</span><span class="tag">Agile</span></div>
         </div>
         <div class="when">Jan — May 2025</div>
       </div>
@@ -323,31 +404,31 @@ footer .f b{color:var(--signal)}
 <section id="projects">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-num">02</span>
+      <span class="sec-num">03</span>
       <span class="sec-title">Things I've built</span>
       <span class="sec-sub">// projects</span>
     </div>
     <div class="proj-grid">
 
       <div class="proj reveal">
-        <div class="ptype">ANALYTICS PIPELINE</div>
+        <div class="ptype">REVENUE &amp; CONTENT ANALYTICS</div>
         <h3>TV Show Ratings Pipeline</h3>
-        <p>An automated pipeline processing multi-source performance data — segmenting ratings by time, region, and content type to surface trends and conversion patterns, with interactive dashboards and year-over-year summaries to guide content strategy.</p>
+        <p>End-to-end serverless pipeline ingesting multi-source ratings data, segmenting by time, region, and content type to surface trends and conversion patterns. Interactive dashboards and year-over-year summaries built to guide content-investment strategy — the kind of analysis that informs greenlight decisions.</p>
         <div class="stack"><span>Python</span><span>SQL</span><span>Power BI</span><span>AWS S3</span><span>Athena</span><span>Lambda</span></div>
       </div>
 
       <div class="proj reveal">
-        <div class="ptype">FULL-STACK APP</div>
+        <div class="ptype">FULL-STACK · AI ANALYTICS</div>
         <h3>Dayflow</h3>
-        <p>A full-stack analytics application with serverless data pipelines, automated reporting, and AI-driven insight generation — transforming structured user data into operational intelligence surfaced through clean, intuitive dashboards.</p>
+        <p>Full-stack analytics application with serverless pipelines, automated reporting, and AI-generated insight summaries. Turns structured user data into operational intelligence surfaced through a clean React dashboard — designed for non-technical decision-makers.</p>
         <div class="stack"><span>Python</span><span>AWS Lambda</span><span>DynamoDB</span><span>Bedrock</span><span>React</span><span>S3</span></div>
       </div>
 
       <div class="proj reveal">
-        <div class="ptype">HARDWARE · NETWORKING</div>
-        <h3>Raspberry Pi Lab</h3>
-        <p>Hands-on systems work configuring a Raspberry Pi from the ground up — Linux setup, networking, and services — building the low-level intuition for how data actually moves before it ever reaches a dashboard.</p>
-        <div class="stack"><span>Linux</span><span>Networking</span><span>Raspberry Pi</span><span>Shell</span></div>
+        <div class="ptype">QUANT &amp; FINANCE FOUNDATIONS</div>
+        <h3>Markets, Models &amp; Methods</h3>
+        <p>Self-directed work in valuation, time-value-of-money, capital budgeting, and statistical methods — the building blocks behind investment, FP&amp;A, and corporate-finance analysis. Translated into Excel/Python models that connect financial concepts to data work.</p>
+        <div class="stack"><span>Excel</span><span>Python</span><span>NPV/IRR</span><span>Forecasting</span><span>Statistics</span></div>
       </div>
 
       <div class="proj reveal">
@@ -365,30 +446,42 @@ footer .f b{color:var(--signal)}
 <section id="skills">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-num">03</span>
+      <span class="sec-num">04</span>
       <span class="sec-title">What I work with</span>
       <span class="sec-sub">// toolkit</span>
     </div>
     <div class="skill-grid reveal">
       <div class="skill-col">
-        <h4>ANALYTICS &amp; VIZ</h4>
+        <h4>ANALYTICS &amp; BI</h4>
         <ul>
-          <li>SQL</li><li>Tableau</li><li>Power BI</li><li>Power Query</li>
-          <li>Excel (Pivots, VLOOKUP, Macros)</li><li>Segmentation &amp; Funnel Analysis</li><li>KPI Development</li>
+          <li>SQL</li>
+          <li>Power BI / Power Query</li>
+          <li>Tableau</li>
+          <li>Excel (Pivots, Lookups, Macros, Modeling)</li>
+          <li>KPI Design &amp; Executive Reporting</li>
+          <li>Segmentation &amp; Funnel Analysis</li>
         </ul>
       </div>
       <div class="skill-col">
-        <h4>DATA ENGINEERING</h4>
+        <h4>FINANCE &amp; MODELING</h4>
         <ul>
-          <li>Python</li><li>ETL / ELT Pipeline Design</li><li>Data Modeling</li>
-          <li>Cleaning &amp; Validation</li><li>Automated Reporting</li><li>Dashboard Development</li>
+          <li>Financial Analysis &amp; FP&amp;A</li>
+          <li>Capital Budgeting &amp; Variance Analysis</li>
+          <li>Forecasting &amp; Scenario Modeling</li>
+          <li>Valuation Fundamentals (DCF · NPV · IRR)</li>
+          <li>Time-Value-of-Money &amp; Returns</li>
+          <li>Statistics for Decision-Making</li>
         </ul>
       </div>
       <div class="skill-col">
-        <h4>TOOLS &amp; PLATFORMS</h4>
+        <h4>DATA &amp; ENGINEERING</h4>
         <ul>
-          <li>AWS (S3, Athena, Lambda, DynamoDB, Bedrock)</li><li>Git</li>
-          <li>React &amp; JavaScript</li><li>Agile / Scrum</li><li>Microsoft Office Suite</li>
+          <li>Python (pandas, automation)</li>
+          <li>ETL / ELT &amp; Data Modeling</li>
+          <li>AWS (S3, Athena, Lambda, DynamoDB, Bedrock)</li>
+          <li>Git &amp; Version Control</li>
+          <li>React &amp; JavaScript</li>
+          <li>Agile / Scrum · MS Office</li>
         </ul>
       </div>
     </div>
@@ -399,7 +492,7 @@ footer .f b{color:var(--signal)}
 <section class="contact" id="contact">
   <div class="wrap reveal">
     <div class="big">Let's build something<br><em>worth measuring.</em></div>
-    <p>I'm looking for internships where I can dig into real data and ship things that help people decide. If that's you, let's talk.</p>
+    <p>Recruiting for Summer &amp; Fall 2026? I'm looking for analyst roles in <b>finance, consulting, business intelligence, or strategy</b> where the work moves a real decision. If that's you, let's talk.</p>
     <div class="contact-links">
       <a href="mailto:trisha.arun@gmail.com" class="btn btn-primary">trisha.arun@gmail.com <span class="arrow">↗</span></a>
       <a href="tel:+15714893222" class="btn btn-ghost">(571) 489-3222</a>
@@ -411,7 +504,7 @@ footer .f b{color:var(--signal)}
 
 <footer>
   <div class="wrap" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;width:100%">
-    <span class="f">trisha<b>.</b>arun — purdue university, b.s. computer &amp; information technology</span>
+    <span class="f">trisha<b>.</b>arun — purdue university · b.s. data analytics &amp; finance · class of <b>2028</b></span>
     <span class="f">designed &amp; built, 2026</span>
   </div>
 </footer>
