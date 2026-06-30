@@ -253,6 +253,20 @@ section{padding:100px 0;position:relative}
 .proj .stack span{font-family:var(--mono);font-size:10.5px;color:var(--graphite);
   background:var(--paper-dim);padding:4px 9px;border-radius:6px}
 
+/* LEADERSHIP */
+.orgs{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--hair);
+  border:1px solid var(--hair);border-radius:14px;overflow:hidden}
+@media(max-width:760px){.orgs{grid-template-columns:1fr}}
+.org-card{background:var(--paper);padding:28px 26px;display:flex;flex-direction:column;gap:8px;
+  transition:background .3s ease;min-height:160px}
+.org-card:hover{background:var(--paper-dim)}
+.org-tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;color:var(--signal)}
+.org-name{font-family:var(--disp);font-weight:700;font-size:19px;letter-spacing:-.01em;color:var(--ink);line-height:1.2}
+.org-meta{font-family:var(--mono);font-size:11px;color:var(--graphite);letter-spacing:.04em;line-height:1.5}
+.org-role{font-family:var(--body);font-size:14px;color:var(--ink-soft);margin-top:auto;padding-top:10px;
+  border-top:1px solid var(--hair)}
+.org-role b{color:var(--ink);font-weight:600}
+
 /* SKILLS */
 .skill-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:38px}
 @media(max-width:760px){.skill-grid{grid-template-columns:1fr;gap:30px}}
@@ -286,6 +300,7 @@ footer .f b{color:var(--signal)}
     <a href="#education">education</a>
     <a href="#work">experience</a>
     <a href="#projects">projects</a>
+    <a href="#leadership">leadership</a>
     <a href="#skills">skills</a>
     <a href="#contact">contact</a>
     <button class="theme-btn" id="themeBtn" aria-label="Toggle dark mode">◐</button>
@@ -317,7 +332,7 @@ footer .f b{color:var(--signal)}
     <div class="metrics reveal" id="metrics">
       <div class="metric"><div class="val" data-count="3">0</div><div class="lbl">INDUSTRIES SHIPPED IN<br>AEROSPACE · PHARMA · INFRA</div></div>
       <div class="metric"><div class="val" data-count="20" data-suffix="+"><span class="num">0</span></div><div class="lbl">EXECUTIVE STAKEHOLDERS<br>BRIEFED ON FINDINGS</div></div>
-      <div class="metric"><div class="val" data-count="35" data-suffix="%"><span class="num">0</span></div><div class="lbl">AVG PERFORMANCE LIFT<br>FROM ANALYTICS WORK</div></div>
+      <div class="metric"><div class="val" data-count="35" data-suffix="%"><span class="num">0</span></div><div class="lbl">AVG STUDENT PERFORMANCE LIFT<br>TRACKED ACROSS TUTORING</div></div>
       <div class="metric"><div class="val" data-count="2028"><span class="num">0</span></div><div class="lbl">PURDUE B.S.<br>EXPECTED MAY 2028</div></div>
     </div>
   </div>
@@ -432,6 +447,17 @@ footer .f b{color:var(--signal)}
         <div class="when">Jan — May 2025</div>
       </div>
 
+      <div class="work">
+        <span class="idx">04</span>
+        <div>
+          <h3>Private Tutor — Math &amp; Intro Programming</h3>
+          <div class="org">Self-employed · elementary &amp; middle-school students</div>
+          <p>Tutored students 1:1 in <b>pre-algebra, algebra, and intro programming (Python &amp; Java basics)</b>, designing custom lesson plans per learner. Tracked grade trends and engagement session-over-session to spot where students were stuck, then iterated on materials — averaging a <b>~35% performance lift</b> across tracked students. First place I learned that the analyst's real job is making the next decision easier.</p>
+          <div class="tags"><span class="tag">Pre-Algebra</span><span class="tag">Algebra</span><span class="tag">Python</span><span class="tag">Java</span><span class="tag">Tracking &amp; Iteration</span></div>
+        </div>
+        <div class="when">2021 — 2024</div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -478,11 +504,42 @@ footer .f b{color:var(--signal)}
   </div>
 </section>
 
+<!-- LEADERSHIP -->
+<section id="leadership">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">04</span>
+      <span class="sec-title">Leadership &amp; communities</span>
+      <span class="sec-sub">// outside the work</span>
+    </div>
+    <div class="orgs reveal">
+      <div class="org-card">
+        <div class="org-tag">LEADERSHIP</div>
+        <div class="org-name">Alpha Kappa Psi</div>
+        <div class="org-meta">PROFESSIONAL BUSINESS FRATERNITY · PURDUE</div>
+        <div class="org-role"><b>DEI Committee Head</b> · driving diversity, equity &amp; inclusion programming across the chapter</div>
+      </div>
+      <div class="org-card">
+        <div class="org-tag">COMMUNITY</div>
+        <div class="org-name">Women in Tech</div>
+        <div class="org-meta">STUDENT ORGANIZATION · PURDUE</div>
+        <div class="org-role"><b>Member</b> · community, mentorship, and events advancing women in technology</div>
+      </div>
+      <div class="org-card">
+        <div class="org-tag">COMMUNITY</div>
+        <div class="org-name">Women in Cyber</div>
+        <div class="org-meta">STUDENT ORGANIZATION · PURDUE</div>
+        <div class="org-role"><b>Member</b> · building the pipeline for women in cybersecurity</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- SKILLS -->
 <section id="skills">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-num">04</span>
+      <span class="sec-num">05</span>
       <span class="sec-title">What I work with</span>
       <span class="sec-sub">// toolkit</span>
     </div>
